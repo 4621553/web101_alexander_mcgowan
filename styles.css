@@ -7,14 +7,14 @@ body {
 /* What kind of selector is this? */
 .logo {
   width: 150px;
-  height: 100px;
+  height: 150px;
   margin: 3% 10%;
 }
 
 header {
-  display: grid;
-  grid-template-columns: 40% 60%;
-  width: 100%;
+  /* display: grid;
+  grid-template-columns: 50% 50%;
+  width: 50%; */
 }
 
 main {
@@ -29,14 +29,14 @@ nav > a {
   margin: 2% 1% 3%;
   height: 10%;
   width: 15%;
-  color: white;
+  color: rgb(192, 103, 103);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   border-radius: 25px;
   background: transparent;
   padding: 20px;
   text-align: center;
-  border: 2px solid white;
+  border: 2px solid rgb(255, 255, 255);
 }
 
 .has-border {
@@ -55,14 +55,14 @@ nav {
 /* This is an ID selector */
 #profile-pic {
   width: 300px;
-  height: 300px;
+  height: 400px;
   border-radius: 50%;
   margin: 15% auto;
   grid-column: 2/3;
 }
 
 h1 {
-  color:white;
+  color:rgb(0, 0, 0);
   grid-column: 2/3;
   margin: 3% auto;
   border-bottom: 2px solid #1940A9;;
@@ -76,7 +76,7 @@ h2 {
 
 .small-text {
   grid-column: 2/3;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 10px;
   margin: 3% auto;
 }
@@ -93,7 +93,7 @@ button {
   padding: 20px;
   padding-bottom: 5%;
   text-align: center;
-  color: white;
+  color: rgb(0, 0, 0);
   letter-spacing: 16px;
   font-style: italic;
 }
