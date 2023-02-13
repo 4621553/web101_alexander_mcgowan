@@ -1,5 +1,9 @@
 /* font-family: 'Teko', sans-serif; */
 /* font-family: 'Ubuntu', sans-serif; */
+body {
+  text-align: center;
+}
+
 h1 {
   font-family: "Teko", sans-serif;
   font-size: 70px;
