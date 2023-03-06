@@ -1,0 +1,123 @@
+/* font-family: 'Crimson Text', serif;
+font-family: 'Josefin Sans', sans-serif; 
+font-family: 'Raleway', sans-serif; */
+
+
+.main-container {
+  height: 100%;
+  /* border: 2px solid red; */
+  background-color: rgb(220, 197, 170);
+  z-index: -1;
+}
+
+.nav-box {
+  position: relative;
+  z-index: 2;
+}
+
+a {
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+span {
+  color: rgb(220, 197, 170);
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color:  rgb(253, 244, 236);
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.nav-element {
+  /* background-color: aqua; */
+  text-align: center;
+  padding: 30px;
+  
+}
+
+#resume {
+  position: fixed;
+  
+}
+
+#home{
+  position: fixed;
+  right: 46%;
+  
+}
+
+#about {
+  position: fixed;
+  left: 91.5%;
+}
+
+#gallery {
+  position: fixed;
+  top: 87.5%;
+
+}
+
+#contact {
+  position: fixed;
+  top: 87.5%;
+  left: 90%;
+}
+
+.selector {
+  width: 300px;
+  height: 400px;
+  background-color: rgb(168, 149, 128);
+  position: absolute;
+  left: 80.2%;
+  z-index: -1;
+}
+
+#main-photo {
+  width: 100vw;
+  /* position: absolute; */
+  padding-top: 100px;
+  /* z-index: 0; */
+}
+
+.about-me-text {
+  color: rgb(168, 149, 128);
+  position: absolute;
+  /* writing-mode: vertical-lr; */
+  /* text-orientation: upright; */
+  font-size: 124px;
+  font-weight: bolder;
+  font-family: 'Raleway', sans-serif;
+  left: 16%;
+  top: 55%;
+  z-index: 2;
+}
+
+.main-text {
+  /* border: 1px solid blue; */
+  height: 500px;
+  background-color: rgb(220, 197, 170);
+}
+
+#orb {
+  height: 600px;
+  position: absolute;
+  left: 10%;
+  top: 84%;
+
+}
