@@ -63,7 +63,7 @@ img {
   width: 400px;
   position: absolute;
   top: 30px;
-  left: 60%;
+  left: 62%;
   /* z-index: -1; */
 
 }
@@ -113,11 +113,6 @@ a:active {
   
 }
 
-#home{
-  position: fixed;
-  right: 50%;
-  
-}
 
 #about {
   position: fixed;

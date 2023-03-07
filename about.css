@@ -12,7 +12,7 @@ font-family: 'Raleway', sans-serif; */
 
 .nav-box {
   position: relative;
-  z-index: 2;
+  z-index: 8;
 }
 
 a {
@@ -24,6 +24,24 @@ a {
 
 span {
   color: rgb(220, 197, 170);
+}
+
+h1 {
+  /* color: rgb(168, 149, 128); */
+  font-family: 'Special Elite', cursive;
+  font-size: 64px;
+  position: absolute;
+  left: 13%;
+}
+
+p {
+  /* color: rgb(168, 149, 128); */
+  font-family: 'Special Elite', cursive;
+  font-weight: 300;
+  font-size: 32px;
+  position: absolute;
+  left: 13%;
+  top: 130%;
 }
 
 
@@ -56,12 +74,6 @@ a:active {
   
 }
 
-#home{
-  position: fixed;
-  right: 46%;
-  
-}
-
 #about {
   position: fixed;
   left: 91.5%;
@@ -81,7 +93,7 @@ a:active {
 
 .selector {
   width: 300px;
-  height: 400px;
+  height: 200px;
   background-color: rgb(168, 149, 128);
   position: absolute;
   left: 80.2%;
@@ -104,15 +116,15 @@ a:active {
   font-weight: bolder;
   font-family: 'Raleway', sans-serif;
   letter-spacing: 50px;
-  left: 51.5%;
-  top: 76.5%;
-  z-index: 2;
+  left: 51.8%;
+  top: 76.7%;
+  z-index: 4;
 }
 
 .main-text {
   /* border: 1px solid blue; */
   height: 500px;
-  background-color: rgb(220, 197, 170);
+  background-color: rgb(228, 203, 175);
 }
 
 #lightpost {
@@ -120,5 +132,68 @@ a:active {
   position: absolute;
   left: 65%;
   top: 70%;
+  z-index: 3;
 
+}
+
+.text-cover {
+  /* border: 2px solid blue; */
+  height: 300px;
+  width: 775px;
+  background-color: rgba(228, 203, 175, 0.951);
+  position: absolute;
+  z-index: 8;
+  top: 120%;
+  left: 10%;
+
+}
+
+#scroll-container {
+  /* background-color: rgb(228, 203, 175); */
+  overflow: hidden;
+  position: absolute;
+  top: 102%;
+  z-index: 2;
+  font-size: 80px;
+  text-transform: uppercase;
+  color:  rgb(165, 148, 127);;
+  font-family: 'Crimson Text', serif;
+  
+}
+
+#scroll-text {
+  text-align: right;
+  /* animation properties */
+  -moz-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  
+  -moz-animation: my-animation 140s linear infinite;
+  -webkit-animation: my-animation 140s linear infinite;
+  animation: my-animation 140s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(-100%); }
+  to { -moz-transform: translateX(100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(-100%); }
+  to { -webkit-transform: translateX(100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  to {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
 }
