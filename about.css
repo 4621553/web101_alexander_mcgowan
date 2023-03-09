@@ -27,7 +27,6 @@ span {
 }
 
 
-
 a:link {
   text-decoration: none;
 }
@@ -108,10 +107,11 @@ a:active {
 .main-text {
   /* border: 1px solid blue; */
   height: 500px;
-  background-color: rgb(228, 203, 175);
+  background-color: rgb(240, 222, 200);
 }
 
 #lightpost {
+  opacity: .7;
   height: 750px;
   position: absolute;
   left: 65%;
@@ -124,19 +124,34 @@ a:active {
   /* border: 2px solid blue; */
   height: 300px;
   width: 775px;
-  background-color: rgb(228, 203, 175);
+  background-color: rgb(240, 222, 200);
   position: absolute;
   z-index: 8;
   top: 120%;
   left: 10%;
   display: flex;
-  box-shadow: -39px 39px 72px -34px rgb(192, 171, 147);
+  /* box-shadow: -39px 39px 72px -34px rgb(192, 171, 147); */
   border-radius: 5px 5px;
 
 }
 
+button {
+
+  background-color: rgb(240, 222, 200);
+  /* transform: rotate(-25deg); */
+  margin-left: 100px;
+  margin-top: 25px;
+  border: none;
+}
+
+
 #linkedin {
+  font-size: 14px;
   font-family: 'Roboto Mono', monospace;
+}
+
+#linkedin:hover {
+  color: rgb(165, 148, 127);
 }
 
 .bio{
@@ -181,32 +196,32 @@ ul {
   -webkit-transform: translateX(-100%);
   transform: translateX(-100%);
   
-  -moz-animation: my-animation 140s linear infinite;
-  -webkit-animation: my-animation 140s linear infinite;
-  animation: my-animation 140s linear infinite;
+  -moz-animation: my-animation 100s linear infinite;
+  -webkit-animation: my-animation 100s linear infinite;
+  animation: my-animation 100s linear infinite;
 }
 
 /* for Firefox */
 @-moz-keyframes my-animation {
   from { -moz-transform: translateX(-100%); }
-  to { -moz-transform: translateX(100%); }
+  to { -moz-transform: translateX(80%); }
 }
 
 /* for Chrome */
 @-webkit-keyframes my-animation {
   from { -webkit-transform: translateX(-100%); }
-  to { -webkit-transform: translateX(100%); }
+  to { -webkit-transform: translateX(80%); }
 }
 
 @keyframes my-animation {
   from {
-    -moz-transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
+    -moz-transform: translateX(-80%);
+    -webkit-transform: translateX(-80%);
+    transform: translateX(-80%);
   }
   to {
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
+    -moz-transform: translateX(80%);
+    -webkit-transform: translateX(80%);
+    transform: translateX(80%);
   }
 }

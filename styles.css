@@ -5,14 +5,14 @@ font-family: 'Raleway', sans-serif; */
 .main-container {
   height: 100vh;
   /* border: 2px solid red; */
-  background-color: rgb(220, 197, 170);
+  background-color: rgb(222, 213, 201);
   z-index: -2;
 }
 
 h1 {
   position: absolute;
   z-index: 1;
-  color: rgb(87, 77, 66);
+  color: rgb(121, 107, 93);
   font-family: 'Crimson Text', serif;
   font-weight: 600;
   font-size: 235px;
