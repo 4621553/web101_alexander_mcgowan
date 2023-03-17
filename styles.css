@@ -51,15 +51,14 @@ button:active {
 }
 
 h1 { 
-  width: 21%;
+  width: 21vw;
   font-family: "JetBrains Mono",monospace;
   /* border: 1px solid #2c348f; */
   font-weight: 700;
   color: #2c348f;
   font-size: 40px;
   padding: 15px 5px 15px 15px;
-  margin-top: -55px;
-  margin-left: 5%;
+  margin-left: 39.5vw;
   /* box-shadow: #2c348f67 0 2px 4px,#2c348f44 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset; */
 }
 
@@ -74,8 +73,44 @@ h1:active {
 }
 
 .main-container {
-  height: 100vh;
+  height: 80vh;
   width: 75vw;
   margin-left: 12.5vw;
-  border: 2px solid #2c348f;
+  /* border: 2px solid #2c348f; */
+  display: grid;
+  grid-template-columns: 20vw, 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex {
+  /* border: 2px solid red; */
+  padding: 10px;
+}
+
+.flex-2 {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.button {
+  flex-wrap: wrap;
+  /* border: 1px solid blue; */
+  width: 15vw;
+  height: 30vh;
+  box-shadow: #2c348f67 0 2px 4px,#2c348f44 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  
+}
+
+.button:hover {
+  box-shadow: #2c348f67 0 2px 4px,#2c348f44 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button:active {
+  box-shadow: #2c348f62 0 3px 7px inset;
+  transform: translateY(2px);
 }
