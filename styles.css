@@ -1,10 +1,11 @@
 body {
-  background-color: rgb(146,191,244);
+  background-color: #ffffff;
 }
 
 .nav-bar {
   display: flex;
   justify-content: center;
+  /* border: 2px solid #2c348f; */
 }
 
 button {
@@ -13,18 +14,17 @@ button {
   background-color: rgb(255,255,255);
   border-radius: 4px;
   border-width: 0;
-  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  /* box-shadow: #2c348fb3 0 2px 4px,#2c348f44 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset; */
   box-sizing: border-box;
-  color: rgb(54,57,90);
+  color: #2c348f;
   cursor: pointer;
-  display: inline-flex;
   font-family: "JetBrains Mono",monospace;
   height: 48px;
-  justify-content: center;
   line-height: 1;
   list-style: none;
   overflow: hidden;
   margin-left: 10px;
+  margin-top: 10px;
   padding-left: 16px;
   padding-right: 16px;
   position: relative;
@@ -36,19 +36,46 @@ button {
   touch-action: manipulation;
   white-space: nowrap;
   will-change: box-shadow,transform;
-  font-size: 18px;
+  font-size: 16px;
 }
 
-button:focus {
-  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-}
 
 button:hover {
-  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  box-shadow: #2c348f67 0 2px 4px,#2c348f44 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
   transform: translateY(-2px);
 }
 
 button:active {
-  box-shadow: #D6D6E7 0 3px 7px inset;
+  box-shadow: #2c348f62 0 3px 7px inset;
   transform: translateY(2px);
+}
+
+h1 { 
+  width: 21%;
+  font-family: "JetBrains Mono",monospace;
+  /* border: 1px solid #2c348f; */
+  font-weight: 700;
+  color: #2c348f;
+  font-size: 40px;
+  padding: 15px 5px 15px 15px;
+  margin-top: -55px;
+  margin-left: 5%;
+  /* box-shadow: #2c348f67 0 2px 4px,#2c348f44 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset; */
+}
+
+/* h1:hover {
+  box-shadow: #2c348f67 0 2px 4px,#2c348f44 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+} */
+
+h1:active {
+  box-shadow: #2c348f62 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.main-container {
+  height: 100vh;
+  width: 75vw;
+  margin-left: 12.5vw;
+  border: 2px solid #2c348f;
 }
