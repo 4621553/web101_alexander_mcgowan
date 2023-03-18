@@ -5,7 +5,7 @@ canvas.height = window.innerHeight;
 
 var c = canvas.getContext('2d');
 
-for (let i = 0; i < 250; i++) {
+for (let i = 0; i < 150; i++) {
   var x = Math.random() * window.innerWidth
   var y = Math.random() * window.innerHeight
   if ( i % 3 == 0) {

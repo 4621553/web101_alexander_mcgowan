@@ -36,7 +36,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(253, 253, 253);
+  background-color: rgba(253, 253, 253, 0.347);
   width: 10vw;
   height: 20vh;
   border-radius: 25px;
