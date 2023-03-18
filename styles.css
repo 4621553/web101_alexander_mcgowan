@@ -1,96 +1,39 @@
 body {
-  background-color: #ffffff;
-}
-
-.nav-bar {
+  background-color:  rgb(146, 191, 244);
   display: flex;
   justify-content: center;
-  /* border: 2px solid #2c348f; */
-}
-
-button {
   align-items: center;
-  appearance: none;
-  background-color: rgb(255,255,255);
-  border-radius: 4px;
-  border-width: 0;
-  /* box-shadow: #2c348fb3 0 2px 4px,#2c348f44 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset; */
-  box-sizing: border-box;
-  color: #2c348f;
-  cursor: pointer;
-  font-family: "JetBrains Mono",monospace;
-  height: 48px;
-  line-height: 1;
-  list-style: none;
-  overflow: hidden;
-  margin-left: 10px;
-  margin-top: 10px;
-  padding-left: 16px;
-  padding-right: 16px;
-  position: relative;
-  text-align: left;
-  text-decoration: none;
-  transition: box-shadow .15s,transform .15s;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  white-space: nowrap;
-  will-change: box-shadow,transform;
-  font-size: 16px;
 }
 
-
-button:hover {
-  box-shadow: #2c348f67 0 2px 4px,#2c348f44 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
-  transform: translateY(-2px);
-}
-
-button:active {
-  box-shadow: #2c348f62 0 3px 7px inset;
-  transform: translateY(2px);
-}
 
 h1 { 
-  width: 21vw;
+  text-align: center;
   font-family: "JetBrains Mono",monospace;
-  /* border: 1px solid #2c348f; */
-  font-weight: 700;
-  color: #2c348f;
-  font-size: 40px;
-  padding: 15px 5px 15px 15px;
-  margin-left: 39.5vw;
-  /* box-shadow: #2c348f67 0 2px 4px,#2c348f44 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset; */
+  color: rgb(81, 79, 75);
+  font-size: 6vw;
+  text-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px;
 }
+ .xander {
+  padding-left: 15vw;
+ }
 
-/* h1:hover {
-  box-shadow: #2c348f67 0 2px 4px,#2c348f44 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
-  transform: translateY(-2px);
-} */
-
-h1:active {
-  box-shadow: #2c348f62 0 3px 7px inset;
-  transform: translateY(2px);
-}
+ .mcgowan {
+  padding-right: 15vw;
+ }
 
 .main-container {
   height: 80vh;
   width: 75vw;
-  margin-left: 12.5vw;
-  /* border: 2px solid #2c348f; */
-  display: grid;
-  grid-template-columns: 20vw, 20vw;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .flex {
-  /* border: 2px solid red; */
   padding: 10px;
 }
 
 .flex-2 {
-  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -98,19 +41,86 @@ h1:active {
 
 .button {
   flex-wrap: wrap;
-  /* border: 1px solid blue; */
-  width: 15vw;
-  height: 30vh;
-  box-shadow: #2c348f67 0 2px 4px,#2c348f44 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
-  
+  background-image: url(./31I05-tlwdL._AC_.jpg);
+  width: 10vw;
+  height: 20vh;
+  border-radius: 25px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button:hover {
-  box-shadow: #2c348f67 0 2px 4px,#2c348f44 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
   transform: translateY(-2px);
 }
 
 .button:active {
-  box-shadow: #2c348f62 0 3px 7px inset;
+  box-shadow: #D6D6E7 0 3px 7px inset;
   transform: translateY(2px);
+}
+
+h2 {
+  color: rgb(81, 79, 75);
+  font-family: "JetBrains Mono",monospace;
+  font-size: 2vw;
+  text-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  body {
+    display: initial;
+    border: 1px solid black;
+  }
+
+  .main-container {
+    display: initial;
+  }
+
+  .button{
+    width: 80vw;
+    /* background-image: none;
+    background-color: rgb(255, 255, 255); */
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 15vh;
+  }
+
+  h2 {
+    font-size: 10vh;
+    
+  }
+
+  .flex-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .xander {
+    text-align: center;
+    padding-left: 0vw;
+  }
+
+  .mcgowan {
+    text-align: center;
+    padding-right: 0vw;
+  }
+
 }
