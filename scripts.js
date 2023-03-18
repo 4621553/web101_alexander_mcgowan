@@ -9,7 +9,7 @@ for (let i = 0; i < 1000; i++) {
   var x = Math.random() * window.innerWidth
   var y = Math.random() * window.innerHeight
   if ( i % 3 == 0) {
-    c.fillStyle = 'rgba(255, 127, 81, 0.2)';
+    c.fillStyle = 'rgba(255, 127, 81, 0.15)';
     c.fillRect (x, y, 150, 150);
     console.log("1")
   } else if (i % 5 == 0) {
