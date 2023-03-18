@@ -1,16 +1,25 @@
 body {
+  position: relative;
 }
 
+canvas {
+  position: absolute;
+  z-index: -1;
+  height: 100vh;
+  width: 100vw;
+
+}
 
 h1 { 
   text-align: center;
   font-family: 'Cedarville Cursive', cursive;
   font-size: 10vw;
-  padding-top: 10vh;
+  padding-top: 15vh;
+  z-index: 0;
 }
 
 .main-container {
-  padding-top: 10vh;
+  padding-top: 25vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,8 +41,8 @@ h1 {
   height: 20vh;
   border-radius: 25px;
   margin: 0vw 5vw;
-  transition: all ease 0.3s;
-  box-shadow: rgba(67, 146, 241, 0.4) -55px 55px, rgba(236, 232, 239, 0.3) 105px 105px, rgba(206, 66, 87, 0.2) -155px -155px, rgba(255, 127, 81, 0.1) -205px 205px, rgba(255, 155, 84, 0.05) -255px -255px;
+  transition: ease 0.4s;
+  box-shadow: rgba(67, 146, 241, 0.05) -55px 55px, rgba(236, 232, 239, 0.05) 105px 105px, rgba(206, 66, 87, 0.05) -155px -155px, rgba(255, 127, 81, 0.05) -205px 205px, rgba(255, 155, 84, 0.05) -255px -255px;
 }
 
 .button:hover {
