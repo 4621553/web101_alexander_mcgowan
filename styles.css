@@ -48,7 +48,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(255, 155, 84, 0.1);
+  background-color: rgba(255, 155, 84, 0.17);
   width: 10vw;
   height: 20vh;
   border-radius: 25px;
@@ -66,12 +66,12 @@ h3 {
 .button:active {
   background-color: rgba(255, 155, 84, 0.8);
   box-shadow: rgba(92, 128, 188, 0.9) 0px 0px, rgba(236, 232, 239, 0.8) 0px 0px, rgba(206, 66, 87, 0.7) 0px 0px, rgba(255, 127, 81, 0.6) 0px 0px, rgba(255, 155, 84, 0.5) 0px 0px;
-  transform: translate(-2px, 2px);
-  transition: ease 0.05s;
+  transform: translate(-25px, 25px);
+  transition: ease 0.2s;
 }
 
 .button:focus {
-  box-shadow: rgba(92, 128, 188, 0.9) 0px 0px, rgba(236, 232, 239, 0.8) 0px 0px, rgba(206, 66, 87, 0.7) 0px 0px, rgba(255, 127, 81, 0.6) 0px 0px, rgba(255, 155, 84, 0.5) 0px 0px;
+  box-shadow: rgba(92, 128, 188, 0.6) -5px 5px, rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px, rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
   transform: translate(-2px, 2px);
 }
 
@@ -89,46 +89,22 @@ a:active {
   text-decoration: none;
 }
 
+button {
+  border: none;
+  background-color: rgba(255, 155, 84, 0.17);
+  margin-left: 3vw;
+  margin-top: 8vh;
+  transition: ease 0.4s;
+  box-shadow: rgba(67, 146, 241, 0.05) 55px -55px, rgba(236, 232, 239, 0.05) 105px 105px, rgba(206, 66, 87, 0.05) -155px -155px, rgba(255, 127, 81, 0.05) -205px 205px, rgba(255, 155, 84, 0.05) -255px -255px;
+}
+
+button:active {
+  transition: ease 0.4s;
+  transform: translate(-2px, 2px)
+}
+
+
 @media (max-width: 600px) {
-  body {
-    display: initial;
-    border: 1px solid black;
-  }
-
-  .main-container {
-    display: initial;
-  }
-
-  .button{
-    width: 80vw;
-    /* background-image: none;
-    background-color: rgb(255, 255, 255); */
-  }
-
-  .flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  h1 {
-    font-size: 15vh;
-  }
-
-  h2 {
-    font-size: 10vh;
-    
-  }
-
-
-  .xander {
-    text-align: center;
-    padding-left: 0vw;
-  }
-
-  .mcgowan {
-    text-align: center;
-    padding-right: 0vw;
-  }
+ 
 
 }
