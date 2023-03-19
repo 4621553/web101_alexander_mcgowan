@@ -57,16 +57,16 @@ h3 {
 }
 
 .resume:hover {
-  background-color: rgba(255, 155, 84, 0.5);
+  background-color: rgba(255, 155, 84, 0.4);
   box-shadow: rgba(92, 128, 188, 0.6) -5px 5px, rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px, rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
   transform: translateY(-2px);
 }
 
 .resume:active {
-  background-color: rgba(255, 155, 84, 0.8);
-  box-shadow: rgba(92, 128, 188, 0.9) 0px 0px, rgba(236, 232, 239, 0.8) 0px 0px, rgba(206, 66, 87, 0.7) 0px 0px, rgba(255, 127, 81, 0.6) 0px 0px, rgba(255, 155, 84, 0.5) 0px 0px;
-  transform: translate(-25px, 25px);
-  transition: ease 0.2s;
+  background-color: rgba(255, 155, 84, 0.4);
+  box-shadow: rgba(92, 128, 188, 0.6) -5px 5px, rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px, rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
+  transform: translate(-2px, 2px);
+  transition: ease 0.15s;
 }
 
 .resume:focus {
@@ -88,16 +88,16 @@ h3 {
 }
 
 .contact:hover {
-  background-color: rgba(255, 155, 84, 0.5);
+  background-color: rgba(255, 155, 84, 0.4);
   box-shadow: rgba(92, 128, 188, 0.6) -5px 5px, rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px, rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
   transform: translateY(-2px);
 }
 
 .contact:active {
-  background-color: rgba(255, 155, 84, 0.8);
-  box-shadow: rgba(92, 128, 188, 0.9) 0px 0px, rgba(236, 232, 239, 0.8) 0px 0px, rgba(206, 66, 87, 0.7) 0px 0px, rgba(255, 127, 81, 0.6) 0px 0px, rgba(255, 155, 84, 0.5) 0px 0px;
-  transform: translate(-25px, 25px);
-  transition: ease 0.2s;
+  background-color: rgba(255, 155, 84, 0.4);
+  box-shadow: rgba(92, 128, 188, 0.6) -5px 5px, rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px, rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
+  transform: translate(-2px, 2px);
+  transition: ease 0.15s;
 }
 
 .contact:focus {
@@ -119,16 +119,16 @@ h3 {
 }
 
 .about:hover {
-  background-color: rgba(255, 155, 84, 0.5);
+  background-color: rgba(255, 155, 84, 0.4);
   box-shadow: rgba(92, 128, 188, 0.6) -5px 5px, rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px, rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
   transform: translateY(-2px);
 }
 
 .about:active {
-  background-color: rgba(255, 155, 84, 0.8);
-  box-shadow: rgba(92, 128, 188, 0.9) 0px 0px, rgba(236, 232, 239, 0.8) 0px 0px, rgba(206, 66, 87, 0.7) 0px 0px, rgba(255, 127, 81, 0.6) 0px 0px, rgba(255, 155, 84, 0.5) 0px 0px;
-  transform: translate(-25px, 25px);
-  transition: ease 0.2s;
+  background-color: rgba(255, 155, 84, 0.4);
+  box-shadow: rgba(92, 128, 188, 0.6) -5px 5px, rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px, rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
+  transform: translate(-2px, 2px);
+  transition: ease 0.15s;
 }
 
 .about:focus {
@@ -150,16 +150,16 @@ h3 {
 }
 
 .gallery:hover {
-  background-color: rgba(255, 155, 84, 0.5);
+  background-color: rgba(255, 155, 84, 0.4);
   box-shadow: rgba(92, 128, 188, 0.6) -5px 5px, rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px, rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
   transform: translateY(-2px);
 }
 
 .gallery:active {
-  background-color: rgba(255, 155, 84, 0.8);
-  box-shadow: rgba(92, 128, 188, 0.9) 0px 0px, rgba(236, 232, 239, 0.8) 0px 0px, rgba(206, 66, 87, 0.7) 0px 0px, rgba(255, 127, 81, 0.6) 0px 0px, rgba(255, 155, 84, 0.5) 0px 0px;
-  transform: translate(-25px, 25px);
-  transition: ease 0.2s;
+  background-color: rgba(255, 155, 84, 0.4);
+  box-shadow: rgba(92, 128, 188, 0.6) -5px 5px, rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px, rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
+  transform: translate(-2px, 2px);
+  transition: ease 0.15s;
 }
 
 .gallery:focus {
