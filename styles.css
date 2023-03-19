@@ -48,7 +48,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(253, 253, 253, 0.577);
+  background-color: rgba(255, 155, 84, 0.1);
   width: 10vw;
   height: 20vh;
   border-radius: 25px;
@@ -58,11 +58,13 @@ h3 {
 }
 
 .button:hover {
+  background-color: rgba(255, 155, 84, 0.5);
   box-shadow: rgba(92, 128, 188, 0.6) -5px 5px, rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px, rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
   transform: translateY(-2px);
 }
 
 .button:active {
+  background-color: rgba(255, 155, 84, 0.8);
   box-shadow: rgba(92, 128, 188, 0.9) 0px 0px, rgba(236, 232, 239, 0.8) 0px 0px, rgba(206, 66, 87, 0.7) 0px 0px, rgba(255, 127, 81, 0.6) 0px 0px, rgba(255, 155, 84, 0.5) 0px 0px;
   transform: translate(-2px, 2px);
   transition: ease 0.05s;
