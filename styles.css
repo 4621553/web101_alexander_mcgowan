@@ -19,7 +19,7 @@ h1 {
   text-align: center;
   font-size: 10vw;
   padding-top: 15vh;
-  z-index: 0;
+  opacity: 0.63;
 }
 
 h3 {
@@ -193,7 +193,7 @@ a:active {
 
 p {
   font-size: 2vw;
-  color: rgba(255, 255, 255, 0.304);
+  color: rgba(255, 255, 255, 0.642);
 }
 
 

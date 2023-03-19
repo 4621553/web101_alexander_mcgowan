@@ -5,6 +5,9 @@ canvas.height = window.innerHeight;
 
 var c = canvas.getContext('2d');
 
+c.shadowColor = "#ece8ef";
+c.shadowBlur = 10;
+
 for (let i = 0; i < 1000; i++) {
   var x = Math.random() * window.innerWidth
   var y = Math.random() * window.innerHeight
