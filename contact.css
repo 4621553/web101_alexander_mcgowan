@@ -48,7 +48,7 @@ body {
 }
 
 .two:hover {
-  border-left: 10.2vw solid rgba(206, 66, 87, 0.4);
+  border-left: 8vw solid rgba(206, 66, 87, 0.4);
 }
 
 .two:active {
@@ -64,7 +64,7 @@ body {
 }
 
 .three:hover {
-  border-left: 10.2vw solid  rgba(255, 127, 81, 0.35);
+  border-left: 8vw solid  rgba(255, 127, 81, 0.35);
 }
 
 .three:active {
@@ -81,7 +81,7 @@ body {
 }
 
 .four:hover {
-  border-left: 10.2vw solid  rgba(255, 155, 84, 0.4);
+  border-left: 8vw solid  rgba(255, 155, 84, 0.4);
 }
 
 .four:active {
@@ -151,8 +151,7 @@ body {
   height: 60vh;
   width: 20vw;
   border-radius: 3px;
-  border: 1px solid rgba(242, 242, 242, 0.927);
-  background-color: #ffffff;
+  background-color: #f5f5f5a2;
   /* border: 1px solid cyan; */
-  box-shadow: 0px 0px 45px 25px rgba(242, 242, 242, 0.69);
+  /* box-shadow: 0px 0px 45px 25px rgba(235, 235, 235, 0.69); */
 }
