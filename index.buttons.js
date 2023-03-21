@@ -18,6 +18,7 @@ function fadeOutEffect() {
 }
 
 window.onhashchange = function() {
+  var fadeTarget = document.getElementById("body");
   fadeTarget.style.opacity = 1
  }
 
