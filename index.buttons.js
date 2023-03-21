@@ -17,8 +17,10 @@ function fadeOutEffect() {
   }, "200");
 }
 
-window.onhashchange = function() {
+function goBack() {
+  window.location.hash = window.location.lasthash[window.location.lasthash.length-1];
   var fadeTarget = document.getElementById("body");
-  fadeTarget.style.opacity = 1
- }
+  fadeTarget.style.opacity = 1;
+  window.location.lasthash.pop();
+}
 
