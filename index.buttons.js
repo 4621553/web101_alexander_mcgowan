@@ -11,6 +11,10 @@ function fadeOutEffectContact() {
       }
   }, 0);
 
+  window.onhashchange = function() {
+    fadeTarget.style.opacity = 1
+   }
+
   setTimeout(() => {
     window.location.href = './contact.html';
   }, "200");
