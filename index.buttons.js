@@ -17,3 +17,7 @@ function fadeOutEffect() {
   }, "200");
 }
 
+window.onhashchange = function() {
+  fadeTarget.style.opacity = 1
+ }
+
