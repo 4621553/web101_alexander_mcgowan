@@ -33,31 +33,32 @@ canvas {
 }
 
 h1 { 
-  text-align: center;
-  font-size: 10vw;
-  padding-top: 15vh;
-  opacity: 0.63;
+  font-size: 5vw;
+  padding: 5vh 5vh 1vh 5vh;
+  opacity: 0.8;
 }
 
 h3 {
-  text-align: center;
-  padding-top: 10vh;
-  margin-bottom: -5vh;
-  font-size: 3vw;
+  padding: 1vh;
+  margin-left: 8vw;
+  font-size: 2vw;
 }
 
 .main-container {
-  padding-top: 15vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.nav {
+  position: absolute;
+  top: 5.5vh;
+  right: 1vw;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+  padding: 1vh;
 
-.flex {
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
 }
 
 .resume {
@@ -66,11 +67,11 @@ h3 {
   align-items: center;
   background-color: rgba(255, 155, 84, 0.17);
   width: 10vw;
-  height: 20vh;
+  height: 10vh;
   border-radius: 3px;
-  margin: 0vw 5vw;
+  margin: 0vw 2vw;
   transition: ease 0.4s;
-  box-shadow: rgba(67, 146, 241, 0.2) 55px -55px, rgba(236, 232, 239, 0.2) 105px 105px, rgba(206, 66, 87, 0.2) -155px -155px, rgba(255, 127, 81, 0.2) -205px 205px, rgba(255, 155, 84, 0.2) -255px -255px;
+  box-shadow: rgba(67, 146, 241, 0.2) 55px -55px, rgba(236, 232, 239, 0.2) 105px 105px, rgba(206, 66, 87, 0.2) -155px -155px, rgba(255, 127, 81, 0.2) -305px 205px, rgba(255, 155, 84, 0.2) -255px -255px;
 }
 
 .resume:hover {
@@ -97,11 +98,11 @@ h3 {
   align-items: center;
   background-color: rgba(255, 155, 84, 0.17);
   width: 10vw;
-  height: 20vh;
+  height: 10vh;
   border-radius: 3px;
-  margin: 0vw 5vw;
+  margin: 0vw 2vw;
   transition: ease 0.4s;
-  box-shadow: rgba(67, 146, 241, 0.2) 105px 105px, rgba(236, 232, 239, 0.2) -55px -55px, rgba(206, 66, 87, 0.2) -205px 205px, rgba(255, 127, 81, 0.2) -155px -155px, rgba(255, 155, 84, 0.05) 255px -255px;
+  box-shadow: rgba(67, 146, 241, 0.2) 155px 105px, rgba(236, 232, 239, 0.2) -55px -55px, rgba(206, 66, 87, 0.05) -205px 205px, rgba(255, 127, 81, 0.2) -155px -155px, rgba(255, 155, 84, 0.05) 255px -255px;
 }
 
 .contact:hover {
@@ -128,11 +129,11 @@ h3 {
   align-items: center;
   background-color: rgba(255, 155, 84, 0.17);
   width: 10vw;
-  height: 20vh;
+  height: 10vh;
   border-radius: 3px;
-  margin: 0vw 5vw;
+  margin: 0vw 2vw;
   transition: ease 0.4s;
-  box-shadow: rgba(67, 146, 241, 0.2) 55px -55px, rgba(236, 232, 239, 0.2) 105px 105px, rgba(206, 66, 87, 0.2) -155px -155px, rgba(255, 127, 81, 0.2) -205px 205px, rgba(255, 155, 84, 0.2) -255px -255px;
+  box-shadow: rgba(67, 146, 241, 0.2) 55px -55px, rgba(236, 232, 239, 0.2) 105px 105px, rgba(206, 66, 87, 0.2) -155px -155px, rgba(255, 127, 81, 0.2) -95px 205px, rgba(255, 155, 84, 0.2) -255px -255px;
 }
 
 .about:hover {
@@ -159,11 +160,11 @@ h3 {
   align-items: center;
   background-color: rgba(255, 155, 84, 0.17);
   width: 10vw;
-  height: 20vh;
+  height: 10vh;
   border-radius: 3px;
-  margin: 0vw 5vw;
+  margin: 0vw 2vw;
   transition: ease 0.4s;
-  box-shadow: rgba(67, 146, 241, 0.05) 105px 105px, rgba(236, 232, 239, 0.2) -55px -55px, rgba(206, 66, 87, 0.2) -205px 205px, rgba(255, 127, 81, 0.2) -155px -155px, rgba(255, 155, 84, 0.2) -255px -255px;
+  box-shadow: rgba(67, 146, 241, 0.05) 105px 105px, rgba(236, 232, 239, 0.2) -55px -55px, rgba(206, 66, 87, 0.2) -205px 205px, rgba(255, 127, 81, 0.2) -155px 155px, rgba(255, 155, 84, 0.2) -255px -255px;
 }
 
 .gallery:hover {
@@ -200,16 +201,31 @@ a:active {
 
 
 .random {
-  width: 100vw;
-  height: 13vh;
+  border: 10px solid #f6f6f6d4;
+  width: 30vw;
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  top: 27vh;
+  left: 35vw;
 }
+
+
 
 p {
   font-size: 2vw;
-  color: rgba(255, 255, 255, 0.642);
+  color: rgba(255, 255, 255, 0.97);
+  transition: ease 0.1s;
+}
+
+p:hover {
+  font-size: 2.1vw;
+}
+
+p:active {
+  font-size: 1.9vw;
 }
 
 
