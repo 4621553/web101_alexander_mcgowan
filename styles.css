@@ -1,5 +1,6 @@
 * {
   font-family: 'Playfair Display', serif;
+  color: #3d4849f1;
 }
 
 
@@ -185,7 +186,6 @@ h3 {
 
 
 h2 {
-  color: black;
   font-size: 2vw;
   text-shadow: #e0b0d515 0 2px 4px;
 }
@@ -202,7 +202,6 @@ a:active {
 .random {
   width: 100vw;
   height: 13vh;
-  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
