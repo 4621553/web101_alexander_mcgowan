@@ -47,6 +47,7 @@ body {
 }
 
 .one:hover {
+  cursor: pointer;
   border-left: 10.2vw solid rgba(67, 146, 241, 0.6);
 }
 
@@ -63,6 +64,7 @@ body {
 }
 
 .two:hover {
+  cursor: pointer;
   border-left: 8vw solid rgba(206, 66, 87, 0.5);
 }
 
@@ -79,6 +81,7 @@ body {
 }
 
 .three:hover {
+  cursor: pointer;
   border-left: 8vw solid rgba(255, 127, 81, 0.35);
 }
 
@@ -87,6 +90,7 @@ body {
 }
 
 .four {
+  cursor: pointer;
   border-bottom: 24px solid transparent;
   border-top: 24px solid transparent;
   border-left: 8vw solid rgba(255, 155, 84, 0.1);
@@ -103,6 +107,7 @@ body {
 }
 
 .five {
+  cursor: pointer;
   border-bottom: 24px solid transparent;
   border-top: 24px solid transparent;
   border-left: 8vw solid rgba(236, 232, 239, 0.3);
@@ -119,6 +124,7 @@ body {
 }
 
 .six {
+  cursor: pointer;
   border-bottom: 24px solid transparent;
   border-top: 24px solid transparent;
   border-left: 8vw solid #ffffff;
@@ -143,6 +149,7 @@ body {
 }
 
 .eight:hover {
+  cursor: pointer;
   border-right: 8vw solid rgba(236, 232, 239, 0.8);
 }
 
@@ -159,6 +166,7 @@ body {
 }
 
 .nine:hover {
+  cursor: pointer;
   border-right: 8vw solid rgba(255, 155, 84, 0.4);
 }
 
@@ -175,6 +183,7 @@ body {
 }
 
 .ten:hover {
+  cursor: pointer;
   border-right: 8vw solid rgba(255, 127, 81, 0.35);
 }
 
@@ -191,6 +200,7 @@ body {
 }
 
 .eleven:hover {
+  cursor: pointer;
   border-right: 8vw solid rgba(206, 66, 87, 0.5);
 }
 
@@ -207,6 +217,7 @@ body {
 }
 
 .twelve:hover {
+  cursor: pointer;
   border-right: 10.2vw solid rgba(67, 146, 241, 0.6);
 }
 
@@ -232,34 +243,34 @@ body {
   text-orientation: upright;
   margin-left: -6.5vw;
   margin-top: 10vh;
-  font-size: 8vh;
+  font-size: 6vh;
   opacity: 0.63
 }
 
 #about {
   writing-mode: vertical-rl;
   text-orientation: upright;
-  margin-left: -6.5vw;
+  margin-left: -5.3vw;
   margin-top: 10vh;
-  font-size: 8vh;
+  font-size: 5vh;
   opacity: 0.63
 }
 
 #resume {
   writing-mode: vertical-rl;
   text-orientation: upright;
-  margin-left: -6.5vw;
+  margin-left: -5.3vw;
   margin-top: 10vh;
-  font-size: 8vh;
+  font-size: 4vh;
   opacity: 0.63
 }
 
 #gallery {
   writing-mode: vertical-rl;
   text-orientation: upright;
-  margin-left: -6.5vw;
+  margin-left: -5.3vw;
   margin-top: 10vh;
-  font-size: 8vh;
+  font-size: 3vh;
   opacity: 0.63
 }
 

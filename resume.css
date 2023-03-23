@@ -218,6 +218,7 @@ h3 {
 }
 
 #orange:hover {
+  cursor: pointer;
   background-color: rgba(255, 155, 84, 0.7);
 }
 
