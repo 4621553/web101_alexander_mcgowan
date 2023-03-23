@@ -75,5 +75,12 @@ function fadeOutEffectGallery() {
 
 }
 
+const ready = () => {
+  let element = document.querySelector('#body')
+  console.log('element:', [element])
+  console.log('element.style.opacity:', element.style.opacity)
+  element.style.opacity = 1
+}
+document.addEventListener("DOMContentLoaded", ready)
 
 
