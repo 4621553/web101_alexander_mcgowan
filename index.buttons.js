@@ -75,5 +75,10 @@ function fadeOutEffectGallery() {
 
 }
 
+function myFunction() {
+  var bodyOpacity = document.getElementById("body")
+  bodyOpacity.style.opacity = 1
+
+}
 
 
