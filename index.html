@@ -17,16 +17,16 @@
   <h3>Full Stack Web Development</h3>
   <div class="main-container">
     <div class="flex">
-        <div class="resume" id="resume" onclick="fadeOutEffectResume()">
+        <div class="resume" id="resume" onclick="fadeOutEffect('resume')">
           <h2>Resume</h2>
         </div>
-        <div class="contact" id="contact" onclick="fadeOutEffectContact()">
+        <div class="contact" id="contact" onclick="fadeOutEffect('contact')">
           <h2>Contact</h2>
         </div>
-        <div class="about" id="about" onclick="fadeOutEffectAbout()">
+        <div class="about" id="about" onclick="fadeOutEffect('about')">
           <h2>About</h2>
        </div>
-        <div class="gallery" id="gallery" onclick="fadeOutEffectGallery()">
+        <div class="gallery" id="gallery" onclick="fadeOutEffect('gallery')">
           <h2>Gallery</h2>
         </div>
     </div> 
@@ -37,7 +37,7 @@
     </div>
   </a>
   </div>
-  <script src="./index.buttons.js"></script>
-  <script src="./scripts.js"></script>
+  <script src="minified/gsap.min.js"></script>
+  <script src="./nav-bar-resume.js"></script>
 </body>
 </html>
