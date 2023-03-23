@@ -75,10 +75,5 @@ function fadeOutEffectGallery() {
 
 }
 
-function myFunction() {
-  location.reload() 
-  console.log("fart")
-
-}
 
 
