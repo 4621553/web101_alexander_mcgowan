@@ -8,7 +8,7 @@ body {
   background-color: #f5f5f5a2;
 }
 
-.fadeOut {
+/* .fadeOut {
   animation: fadeOut 500ms ease-in
 }
 
@@ -19,7 +19,7 @@ body {
   100% {
     opacity: 0;
   }
-}
+} */
 
 
 
