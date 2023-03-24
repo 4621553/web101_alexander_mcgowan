@@ -1,0 +1,18 @@
+* {
+  font-family: 'Playfair Display', serif;
+  color: #3d4849f1;
+}
+
+.fadeOut {
+  animation: fadeOut 300ms ease
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
