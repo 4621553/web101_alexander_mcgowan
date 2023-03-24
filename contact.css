@@ -13,6 +13,19 @@ a:active {
   text-decoration: none;
 }
 
+.fadeOut {
+  animation: fadeOut 300ms ease
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 
 
 
@@ -238,12 +251,12 @@ body {
   /* box-shadow: 0px 0px 45px 25px rgba(235, 235, 235, 0.69); */
 }
 
-#contact {
+#home {
   writing-mode: vertical-rl;
   text-orientation: upright;
   margin-left: -6.5vw;
   margin-top: 10vh;
-  font-size: 6vh;
+  font-size: 5vh;
   opacity: 0.63
 }
 
