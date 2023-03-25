@@ -38,6 +38,22 @@ body {
   }
 }
 
+#contact, #home {
+  writing-mode: vertical-rl;
+}
+
+
+
+
+
+.buttons > div {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
 .one {
   position: absolute;
   top: 25.3vh;
@@ -61,8 +77,25 @@ body {
 }
 
 .one:hover {
-  transform: translateX(5vw);
+  background-color: rgba(206, 66, 87, 0.4);
+  transition: ease 0.1s;
 }
+
+.one:active {
+  scale: 0.9;
+  transform: translate(0.3vw, 1.6vh);
+}
+.cvr1 {
+  position: absolute;
+  top: 25.3vh;
+  left: 8.8vw;
+  background-color: #f5f5f5;
+  height: 30vh;
+  width: 5vw;
+  border-radius: 3px;
+}
+
+
 
 .two {
   position: absolute;
@@ -85,7 +118,25 @@ body {
   }
 }
 
+.two:hover {
+  background-color: rgba(206, 66, 87, 0.4);
+  transition: ease 0.1s;
+}
 
+.two:active {
+  scale: 0.9;
+  transform: translate(0.3vw, 1.6vh);
+}
+
+.cvr2 {
+  position: absolute;
+  top: 104vh;
+  left: 2vw;
+  background-color: #f5f5f5;
+  height: 10vh;
+  width: 11vw;
+  border-radius: 3px;
+}
 
 
 .three {
@@ -109,6 +160,26 @@ body {
   }
 }
 
+.three:hover {
+  background-color: rgba(206, 66, 87, 0.4);
+  transition: ease 0.1s;
+}
+
+.three:active {
+  scale: 0.9;
+  transform: translate(0.3vw, 1.6vh);
+}
+
+.cvr3 {
+  position: absolute;
+  top: 124vh;
+  left: 15.5vw;
+  background-color: #f5f5f5;
+  height: 17vh;
+  width: 5vw;
+  border-radius: 3px;
+}
+
 .four {
   position: absolute;
   top: 8vh;
@@ -130,15 +201,39 @@ body {
   }
 }
 
+.four:hover {
+  background-color: rgba(206, 66, 87, 0.4);
+  transition: ease 0.1s;
+}
+
+.four:active {
+  scale: 0.9;
+  transform: translate(-0.3vw, -1.6vh);
+}
+
+.cvr4 {
+  position: absolute;
+  top: 8vh;
+  left: 11vw;
+  background-color: #f5f5f5;
+  height: 12vh;
+  width: 5vw;
+  border-radius: 3px;
+}
+
 .five {
   position: absolute;
   top: 34.8vh;
   left: 37.05vw;
-  background-color: rgba(206, 66, 87, 0.2);
+  /* background-color: rgba(206, 66, 87, 0.2); */
+  background-image: url(./calculator-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 20vh;
   width: 8vw;
   border-radius: 3px;
   animation: load-five ease-out 1.3s;
+  transition: ease-out 0.7s;
 }
 
 @keyframes load-five {
@@ -149,6 +244,25 @@ body {
   100% {
     transform: translateY(0vh);
   }
+}
+
+.five:hover {
+  transform: scale(1.5, 1.5) translate(-1.3vw, 3.3vh);
+}
+
+.five:active {
+  scale: 0.99;
+  transform: translate(0.1vw, -0.2vh);
+}
+
+.cvr5 {
+  position: absolute;
+  top: 14.5vh;
+  left: 37.05vw;
+  background-color: #f5f5f5;
+  height: 20vh;
+  width: 8vw;
+  border-radius: 3px;
 }
 
 .six {
@@ -173,6 +287,16 @@ body {
   }
 }
 
+.cvr6 {
+  position: absolute;
+  top: 118vh;
+  left: 43vw;
+  background-color: #f5f5f5;
+  height: 18vh;
+  width: 2vw;
+  border-radius: 3px;
+}
+
 .seven {
   position: absolute;
   top: 24vh;
@@ -192,6 +316,16 @@ body {
   100% {
     transform: translateY(0vw);
   }
+}
+
+.cvr7 {
+  position: absolute;
+  top: 24vh;
+  left: 65.75vw;
+  background-color: #f5f5f5;
+  height: 34vh;
+  width: 3.8vw;
+  border-radius: 3px;
 }
 
 .eight {
@@ -215,12 +349,13 @@ body {
   }
 }
 
-.cvr1 {
-    position: absolute;
-    top: 25.3vh;
-    left: 8.8vw;
-    background-color: #f5f5f5;
-    height: 30vh;
-    width: 5vw;
-    border-radius: 3px;
+.cvr8 {
+  position: absolute;
+  top: 81vh;
+  left: 57.6vw;
+  background-color: #f5f5f5;
+  height: 19vh;
+  width: 8vw;
+  border-radius: 3px;
 }
+

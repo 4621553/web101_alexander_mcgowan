@@ -9,7 +9,3 @@ function fadeOutEffect(page){
     window.location.href = `./${page}.html`;
   }, "200");
 }
-
-
-
-
