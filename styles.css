@@ -1,16 +1,19 @@
 * {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   color: #3d4849f1;
 }
-
 
 body {
   position: relative;
   background-color: #f5f5f5a2;
 }
 
+.mobile {
+  display: none;
+}
+
 .fadeOut {
-  animation: fadeOut 300ms ease
+  animation: fadeOut 300ms ease;
 }
 
 @keyframes fadeOut {
@@ -22,17 +25,14 @@ body {
   }
 }
 
-
-
 canvas {
   position: absolute;
   z-index: -1;
   height: 100vh;
   width: 100vw;
-
 }
 
-h1 { 
+h1 {
   font-size: 5vw;
   padding: 5vh 5vh 1vh 5vh;
   opacity: 0.8;
@@ -49,7 +49,6 @@ h3 {
   justify-content: flex-end;
 }
 
-
 .nav {
   position: absolute;
   top: 5.5vh;
@@ -58,7 +57,6 @@ h3 {
   justify-content: center;
   align-items: center;
   padding: 1vh;
-
 }
 
 .resume {
@@ -71,26 +69,33 @@ h3 {
   border-radius: 3px;
   margin: 0vw 2vw;
   transition: ease 0.4s;
-  box-shadow: rgba(67, 146, 241, 0.2) 55px -55px, rgba(236, 232, 239, 0.2) 105px 105px, rgba(206, 66, 87, 0.2) -155px -155px, rgba(255, 127, 81, 0.2) -305px 205px, rgba(255, 155, 84, 0.2) -255px -255px;
+  box-shadow: rgba(67, 146, 241, 0.2) 55px -55px,
+    rgba(236, 232, 239, 0.2) 105px 105px, rgba(206, 66, 87, 0.2) -155px -155px,
+    rgba(255, 127, 81, 0.2) -305px 205px, rgba(255, 155, 84, 0.2) -255px -255px;
 }
-
 
 .resume:hover {
   cursor: pointer;
   background-color: rgba(255, 155, 84, 0.4);
-  box-shadow: rgba(92, 128, 188, 0.6) -5px 5px, rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px, rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
+  box-shadow: rgba(92, 128, 188, 0.6) -5px 5px,
+    rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px,
+    rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
   transform: translateY(-2px);
 }
 
 .resume:active {
   background-color: rgba(255, 155, 84, 0.4);
-  box-shadow: rgba(92, 128, 188, 0.6) -5px 5px, rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px, rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
+  box-shadow: rgba(92, 128, 188, 0.6) -5px 5px,
+    rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px,
+    rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
   transform: translate(-2px, 2px);
   transition: ease 0.15s;
 }
 
 .resume:focus {
-  box-shadow: rgba(92, 128, 188, 0.6) -5px 5px, rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px, rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
+  box-shadow: rgba(92, 128, 188, 0.6) -5px 5px,
+    rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px,
+    rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
   transform: translate(-2px, 2px);
 }
 
@@ -104,25 +109,33 @@ h3 {
   border-radius: 3px;
   margin: 0vw 2vw;
   transition: ease 0.4s;
-  box-shadow: rgba(67, 146, 241, 0.2) 155px 105px, rgba(236, 232, 239, 0.2) -55px -55px, rgba(206, 66, 87, 0.05) -205px 205px, rgba(255, 127, 81, 0.2) -155px -155px, rgba(255, 155, 84, 0.05) 255px -255px;
+  box-shadow: rgba(67, 146, 241, 0.2) 155px 105px,
+    rgba(236, 232, 239, 0.2) -55px -55px, rgba(206, 66, 87, 0.05) -205px 205px,
+    rgba(255, 127, 81, 0.2) -155px -155px, rgba(255, 155, 84, 0.05) 255px -255px;
 }
 
 .contact:hover {
   cursor: pointer;
   background-color: rgba(255, 155, 84, 0.4);
-  box-shadow: rgba(92, 128, 188, 0.6) -5px 5px, rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px, rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
+  box-shadow: rgba(92, 128, 188, 0.6) -5px 5px,
+    rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px,
+    rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
   transform: translateY(-2px);
 }
 
 .contact:active {
   background-color: rgba(255, 155, 84, 0.4);
-  box-shadow: rgba(92, 128, 188, 0.6) -5px 5px, rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px, rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
+  box-shadow: rgba(92, 128, 188, 0.6) -5px 5px,
+    rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px,
+    rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
   transform: translate(-2px, 2px);
   transition: ease 0.15s;
 }
 
 .contact:focus {
-  box-shadow: rgba(92, 128, 188, 0.6) -5px 5px, rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px, rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
+  box-shadow: rgba(92, 128, 188, 0.6) -5px 5px,
+    rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px,
+    rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
   transform: translate(-2px, 2px);
 }
 
@@ -136,25 +149,33 @@ h3 {
   border-radius: 3px;
   margin: 0vw 2vw;
   transition: ease 0.4s;
-  box-shadow: rgba(67, 146, 241, 0.2) 55px -55px, rgba(236, 232, 239, 0.2) 105px 105px, rgba(206, 66, 87, 0.2) -155px -155px, rgba(255, 127, 81, 0.2) -95px 205px, rgba(255, 155, 84, 0.2) -255px -255px;
+  box-shadow: rgba(67, 146, 241, 0.2) 55px -55px,
+    rgba(236, 232, 239, 0.2) 105px 105px, rgba(206, 66, 87, 0.2) -155px -155px,
+    rgba(255, 127, 81, 0.2) -95px 205px, rgba(255, 155, 84, 0.2) -255px -255px;
 }
 
 .about:hover {
   cursor: pointer;
   background-color: rgba(255, 155, 84, 0.4);
-  box-shadow: rgba(92, 128, 188, 0.6) -5px 5px, rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px, rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
+  box-shadow: rgba(92, 128, 188, 0.6) -5px 5px,
+    rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px,
+    rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
   transform: translateY(-2px);
 }
 
 .about:active {
   background-color: rgba(255, 155, 84, 0.4);
-  box-shadow: rgba(92, 128, 188, 0.6) -5px 5px, rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px, rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
+  box-shadow: rgba(92, 128, 188, 0.6) -5px 5px,
+    rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px,
+    rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
   transform: translate(-2px, 2px);
   transition: ease 0.15s;
 }
 
 .about:focus {
-  box-shadow: rgba(92, 128, 188, 0.6) -5px 5px, rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px, rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
+  box-shadow: rgba(92, 128, 188, 0.6) -5px 5px,
+    rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px,
+    rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
   transform: translate(-2px, 2px);
 }
 
@@ -168,28 +189,35 @@ h3 {
   border-radius: 3px;
   margin: 0vw 2vw;
   transition: ease 0.4s;
-  box-shadow: rgba(67, 146, 241, 0.05) 105px 105px, rgba(236, 232, 239, 0.2) -55px -55px, rgba(206, 66, 87, 0.2) -205px 205px, rgba(255, 127, 81, 0.2) -155px 155px, rgba(255, 155, 84, 0.2) -255px -255px;
+  box-shadow: rgba(67, 146, 241, 0.05) 105px 105px,
+    rgba(236, 232, 239, 0.2) -55px -55px, rgba(206, 66, 87, 0.2) -205px 205px,
+    rgba(255, 127, 81, 0.2) -155px 155px, rgba(255, 155, 84, 0.2) -255px -255px;
 }
 
 .gallery:hover {
   cursor: pointer;
   background-color: rgba(255, 155, 84, 0.4);
-  box-shadow: rgba(92, 128, 188, 0.6) -5px 5px, rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px, rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
+  box-shadow: rgba(92, 128, 188, 0.6) -5px 5px,
+    rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px,
+    rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
   transform: translateY(-2px);
 }
 
 .gallery:active {
   background-color: rgba(255, 155, 84, 0.4);
-  box-shadow: rgba(92, 128, 188, 0.6) -5px 5px, rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px, rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
+  box-shadow: rgba(92, 128, 188, 0.6) -5px 5px,
+    rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px,
+    rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
   transform: translate(-2px, 2px);
   transition: ease 0.15s;
 }
 
 .gallery:focus {
-  box-shadow: rgba(92, 128, 188, 0.6) -5px 5px, rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px, rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
+  box-shadow: rgba(92, 128, 188, 0.6) -5px 5px,
+    rgba(236, 232, 239, 0.5) -10px 10px, rgba(206, 66, 87, 0.4) -15px 15px,
+    rgba(255, 127, 81, 0.3) -20px 20px, rgba(255, 155, 84, 0.2) -25px 25px;
   transform: translate(-2px, 2px);
 }
-
 
 h2 {
   font-size: 2vw;
@@ -204,7 +232,6 @@ a:active {
   text-decoration: none;
 }
 
-
 .random {
   border: 10px solid #f6f6f6d4;
   width: 30vw;
@@ -216,8 +243,6 @@ a:active {
   top: 27vh;
   left: 35vw;
 }
-
-
 
 p {
   font-size: 2vw;
@@ -233,160 +258,21 @@ p:active {
   font-size: 1.9vw;
 }
 
-
-
-@media (max-width: 1200px) {
-
-
-  .random {
-    display: none;
-  }
-
-  .main-container {
-    padding-top: 5vh;
-  }
-
-  h3 {
-    font-size: 5vw;
-    margin-bottom: 0px;
-  }
-
-  h2 {
-    font-size: vw;
-  }
-
-  .resume {
-    width: 25vw;
-    background-color: rgba(92, 128, 188, 0.3);
-    margin-bottom: 5vh;
-    margin-top: 0px;
-  }
-
-  .about {
-    width: 25vw;
-    background-color: rgba(92, 128, 188, 0.3);
-    margin-bottom: 5vh;
-    margin-top: 0px;
-  }
-
-  .contact {
-    width: 25vw;
-    background-color: rgba(92, 128, 188, 0.3);
-    margin-bottom: 5vh;
-    margin-top: 0px;
-  }
-
-  .gallery {
-    width: 25vw;
-    background-color: rgba(92, 128, 188, 0.3);
-    margin-bottom: 5vh;
-    margin-top: 0px;
-  }
-
-  .flex {
-    display: grid;
-    grid-template-columns: 30vw 30vw;
-
-  }
-}
-
 @media (max-width: 600px) {
-  h1 {
-    font-size: 15vh;
-  }
+
+
+}
+
+@media (max-width: 599px) {
+}
+
   
-  h2{
-    font-size: 10vh;
-  }
 
-  h3 {
-    font-size: 7vh;
-  }
-  
-  .flex {
-    display: initial;
-  }
-
-  canvas {
-    height: 100%;
-  }
-
-  .resume{
-    width: 80vw;
-    margin-bottom: 3vh;
-    font-size: 5vw;
-    background-color: rgba(92, 128, 188, 0.3);
-    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,;
-  }
-
-  .contact {
-    width: 80vw;
-    margin-bottom: 3vh;
-    font-size: 5vw;
-    background-color: rgba(92, 128, 188, 0.3);
-    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,;
-  }
-
-  .about {
-    width: 80vw;
-    margin-bottom: 3vh;
-    font-size: 5vw;
-    background-color: rgba(92, 128, 188, 0.3);
-    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,;
-  }
-
-  .gallery {
-    width: 80vw;
-    margin-bottom: 3vh;
-    font-size: 5vw;
-    background-color: rgba(92, 128, 188, 0.3);
-    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,;
-  }
-
+@media (max-width: 450px) {
 
 }
 
-@media 
-(max-width: 599px) {
-  h1 {
-    font-size: 8vh;
-    padding: 10vh 4vw 0vh 4vh;
-  }
-
-  h2 {
-    font-size: 5vh;
-  }
-
-  h3 {
-    font-size: 5vh;
-  }
-}
-
-@media 
-(max-width: 450px) {
-  h1 {
-    font-size: 6vh;
-  }
+@media (max-width: 360px) {
 
 }
 
-@media 
-(max-width: 360px) {
-  h1 {
-    font-size: 3vh;
-  }
-
-  h2 {
-    font-size: 4vh;
-  }
-
-  h3 {
-    font-size: 3vh;
-  }
-
-}
-
-#target {
-  height: 100px;
-  background-color: red;
-}

@@ -43,6 +43,13 @@ body {
   }
 }
 
+.text-plate {
+  text-align: center;
+  /* border: 1px solid red; */
+  padding: 3vh;
+  line-height: 1;
+}
+
 .background {
   height: 100vh;
   margin: 0%;
